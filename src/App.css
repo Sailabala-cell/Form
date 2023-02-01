@@ -1,5 +1,34 @@
-.dark-mode1{
-    background-color:black;
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:100vh;
-    width:100vw
+    background-color: mediumaquamarine;
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    background-color: plum;
+    padding:10px 60px;
+    border-radius: 10px;
+}
+h1{
+    color:purple;
+    text-align: center;
+}
+
+button{
+    width:100%;
+    height:50px;
+    padding:10px;
+    border:none;
+    background-color: purple;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:18px;
+    cursor: pointer;
+    margin-top:15px;
+    margin-bottom:30px ;
 }
